@@ -8,6 +8,6 @@ jobs:
       steps:
         - uses: actions/checkout@v4
         - name: show files
-          run: ls-la
+          run: ls -la
         - name: print branch
           run: echo "Building on ${{github.ref_name}}"       
